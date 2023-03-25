@@ -33,3 +33,6 @@ class Space:
     def upload_File(self, file, filename):
         with open(file, 'rb') as fileobj:
             self.client.upload_fileobj(fileobj, self.space_name, filename)
+    
+    def delete_File(self, filename):
+        self.client.delete_object(Bucket = self.space_name, Key = filename)
