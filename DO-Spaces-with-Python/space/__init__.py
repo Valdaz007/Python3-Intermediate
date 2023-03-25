@@ -29,3 +29,7 @@ class Space:
             return True
         except:
             return False
+    
+    def upload_File(self, file, filename):
+        with open(file, 'rb') as fileobj:
+            self.client.upload_fileobj(fileobj, self.space_name, filename)
