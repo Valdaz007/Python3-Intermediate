@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<br>
+<div class="container">
+	<form method="POST">
+		<label for="uemail">Email</label>
+		<input id="uemail" class="form-control" type="text" name="email">
+		<br>
+		<label for="ufname">Name</label>
+		<input id="ufname" class="form-control" type="text" name="fname">
+		<br>
+		<label for="ulname">Surname</label>
+		<input id="ulname" class="form-control" type="text" name="lname">
+		<br>
+		<label for="uname">Username</label>
+		<input id="uname" class="form-control" type="text" name="uname">
+		<br>
+		<label for="upwd">Password</label>
+		<input id="upwd" class="form-control" type="text" name="upwd">
+		<br>
+		<input class="btn btn-primary" type="submit" name="submit">
+	</form>
+	<br>
+	<a href="{{url_for('login')}}">Go Back</a>
+</div>
+{% endblock content %}
