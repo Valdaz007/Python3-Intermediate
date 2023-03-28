@@ -27,6 +27,12 @@ def login():
             flash("Login Fail!")
     return render_template('login.html', title='Login', stylesheet='login.css')
 
+@app.route('/logout')
+def logout():
+    session.pop('session_key', None)
+    flash('You have logged out!')
+    return redirect(url_for('login'))
+
 @app.route('/sign-up', methods=["POST", "GET"])
 def signup():
     if request.method == "POST":
