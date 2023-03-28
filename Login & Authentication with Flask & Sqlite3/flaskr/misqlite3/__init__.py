@@ -24,4 +24,13 @@ class Login(DB):
         else: return False
 
 class SignUp(DB):
-    pass
+    def regUser(self, uemail, fname, lname, uname, upwd):
+        try:
+            self.open()
+            self.cursor.execute(f"""
+                INSERT INTO users VALUES('{uemail}', '{fname}', '{lname}', '{uname}', '{upwd}')
+            """)
+            self.conxn.commit()
+            return True
+        except:
+            return False
