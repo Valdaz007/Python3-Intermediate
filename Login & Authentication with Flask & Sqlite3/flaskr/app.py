@@ -8,11 +8,9 @@ db = Login()
 
 @app.route('/')
 def index():
-    if 'user' not in session:
-        redirect(url_for('login'))
-    for i in session:
-        print(i)
-    return render_template('index.html', title='Dashboard', stylesheet='index.css')
+    if "user" in session:
+        return render_template('index.html', title='Dashboard', stylesheet='index.css')
+    return redirect(url_for('login'))
 
 @app.route('/login', methods=["POST", "GET"])
 def login():
