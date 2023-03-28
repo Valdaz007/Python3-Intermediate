@@ -30,6 +30,17 @@ def login():
 
 @app.route('/sign-up', methods=["POST", "GET"])
 def signup():
+    if request.method == "POST":
+        uemail = request.form['uemail']
+        fname = request.form['fname']
+        lname = request.form['lname']
+        uname = request.form['uname']
+        upwd = request.form['upwd']
+        if reg.regUser(uemail, fname, lname, uname, upwd):
+            flash('User Registration Successful!')
+            return redirect(url_for('login'))
+        else:
+            flash('Registration Unsuccessful!')
     return render_template('sign-up.html', title='sign-up', stylesheet='sign-up.css')
     
 if __name__ == "__main__":
