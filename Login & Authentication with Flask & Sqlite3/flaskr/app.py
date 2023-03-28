@@ -5,6 +5,7 @@ app = Flask(__name__)
 app.secret_key = "secret_key"
 
 db = Login('dbFilename')
+reg = SignUp('dbFilename')
 
 @app.route('/')
 def index():
