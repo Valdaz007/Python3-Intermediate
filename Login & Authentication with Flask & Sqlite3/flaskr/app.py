@@ -16,11 +16,9 @@ def index():
 @app.route('/login', methods=["POST", "GET"])
 def login():
     if request.method == "POST":
-        db.open()
         username = request.form['uname']
         password = request.form['upwd']
         result = db.getUser(username, password)
-        db.close()
         if result:
             flash("Login Successful!")
             session['user'] = username
