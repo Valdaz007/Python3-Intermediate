@@ -1,20 +1,10 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    <br>
-    <div id="main">
-        <h2>Leave a Message</h2>
-        <label for="txtname">Name:</label>
-        <input class="form-control" type = "text" id = "txtname">
-        <br>
-        <label for="txtemail">Email:</label>
-        <input class="form-control" type = "text" id = "txtemail">
-        <br>
-        <label for="txtmsg">Message:</label>
-        <textarea class="form-control" id="txtmsg" rows="5"></textarea>
-    </div>
-    <br><br>
-    <div id="login">
-        <a href="{{url_for('login')}}">Login<a>
-    </div>
+<div class="container">
+	<h1>Hello {{session['user']}}</h1>
+	<form action="/logout" method="GET">
+		<input class="btn btn-primary" type="submit" name="submit" value="Logout">
+	</form>
+</div>
 {% endblock content %}
