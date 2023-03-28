@@ -4,7 +4,7 @@ from misqlite3 import Login
 app = Flask(__name__)
 app.secret_key = "secret_key"
 
-db = Login()
+db = Login('dbFilename')
 
 @app.route('/')
 def index():
@@ -15,13 +15,17 @@ def index():
 @app.route('/login', methods=["POST", "GET"])
 def login():
     if request.method == "POST":
-        db.open('test.db')
+        db.open()
         username = request.form['uname']
         password = request.form['upwd']
-        print(db.getUser(username))
+        result = db.getUser(username, password)
         db.close()
-        return redirect(url_for('login'))
-    
+        if result:
+            flash("Login Successful!")
+            session['user'] = username
+            return redirect(url_for('index'))
+        else:
+            flash("Login Fail!")
     return render_template('login.html', title='Login', stylesheet='login.css')
 
 @app.route('/sign-up', methods=["POST", "GET"])
