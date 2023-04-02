@@ -1,0 +1,11 @@
+body {
+	background-color: none;
+}
+
+header {
+	height: 10vh;
+	background-color: lightgreen;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
