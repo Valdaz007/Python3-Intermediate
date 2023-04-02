@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block main %} 
+<br>
+<div class="">
+	<form action="/getDir" method="POST">
+		<input type="text" value="." name="chdir" style="display: none"/>
+		<input type="submit" value="Main" class="btn btn-info"/>
+	</form>
+	<br>
+	{% if dir == "."%}
+	<h2>Main Folder</h2>
+	<br>
+	{% for dir in dirListDir %}
+	<form action="/getDir" method="POST" id="folder">
+		<input class="btn btn-primary" type="submit" name="chdir" value="{{dir}}"/>
+	</form>
+	{% endfor %}
+	<br>
+	{% for dir in dirList %}
+	<p name="{{'%'.join(dir)}}">{{dir[1]}}</p>
+	{% endfor %}
+	
+	{% else %}
+	<h2>{{dir}} Folder</h2>
+	{% for dir in dirListDir %}
+	<form action="/getDir" method="POST" id="folder">
+		<input class="btn btn-primary" type="submit" name="chdir" value="{{dir}}"/>
+	</form>
+	{% endfor %}
+	<br>
+	{% for dir in dirList %}
+	<p name="{{'%'.join(dir)}}">{{dir[app.config['INDEX']]}}</p>
+	{% endfor %}
+	{% endif %}
+</div>
+{% endblock main %}
