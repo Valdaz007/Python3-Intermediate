@@ -9,12 +9,12 @@ app.config['INDEX'] = 0
 @app.route('/')
 def index():
 	return render_template('index.html', 
-							title="Home", 
-							stylesheet="index.css", 
-							dir=app.config['CWD'], 
-							dirList = getFilesFromDir(app.config['CWD']),
-							dirListDir = getDirFromDir(app.config['CWD']),
-							app = app
+				title="Home", 
+				stylesheet="index.css", 
+				dir=app.config['CWD'], 
+				dirList = getFilesFromDir(app.config['CWD']),
+				dirListDir = getDirFromDir(app.config['CWD']),
+				app = app
 	)
 	
 @app.route('/getDir', methods=['POST', 'GET'])
