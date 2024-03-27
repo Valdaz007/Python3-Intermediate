@@ -1,0 +1,234 @@
+{
+    'fixtures': [
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Match', 'matchMode': 'Pre', 
+            'matchState': 'Upcoming', 'venue': 'Allianz Stadium', 
+            'venueCity': 'Sydney', 'matchCentreUrl': '/draw/nrl-premiership/2024/round-4/roosters-v-panthers/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Roosters v Panthers', 'text': 'Get Tickets', 'url': 'https://premier.ticketek.com.au/shows/Show.aspx?sh=ROOPAN24&utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {
+                'teamId': 500001, 'nickName': 'Roosters', 'teamPosition': '2nd', 
+                'theme': {'key': 'roosters', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+            }, 
+            'awayTeam': {
+                'teamId': 500014, 'nickName': 'Panthers', 'teamPosition': '4th', 
+                'theme': {'key': 'panthers', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+            }, 
+            'clock': {'kickOffTimeLong': '2024-03-28T09:00:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {
+                'accessibleText': 'Team Stats for Roosters v Panthers', 
+                'text': 'Team Stats', 
+                'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/roosters-v-panthers/#tab-team-stats', 
+                'type': 'TeamStats'}
+        },
+
+        {
+            'isCurrentRound': True'roundTitle': 'Round 4', 
+            'type': 'Match''matchMode': 'Pre', 
+            'matchState': 'Upcoming''venue': 'Accor Stadium', 
+            'venueCity': 'Sydney''matchCentreUrl': '/draw/nrl-premiership/2024/round-4/rabbitohs-v-bulldogs/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Rabbitohs v Bulldogs', 'text': 'Get Tickets', 'url': 'https://premier.ticketek.com.au/shows/Show.aspx?sh=RBS0424&utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {
+                'teamId': 500005, 'nickName': 'Rabbitohs', 'teamPosition': '17th', 
+                'theme': {'key': 'rabbitohs', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+            }, 
+            'awayTeam': {
+                'teamId': 500010, 'nickName': 'Bulldogs', 'teamPosition': '12th', 
+                'theme': {'key': 'bulldogs', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+            }, 
+            'clock': {'kickOffTimeLong': '2024-03-29T05:05:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {
+                'accessibleText': 'Team Stats for Rabbitohs v Bulldogs', 
+                'text': 'Team Stats', 
+                'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/rabbitohs-v-bulldogs/#tab-team-stats', 
+                'type': 'TeamStats'}
+        }, 
+        
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Match', 'matchMode': 'Pre', 
+            'matchState': 'Upcoming', 'venue': 'Suncorp Stadium', 
+            'venueCity': 'Brisbane', 'matchCentreUrl': '/draw/nrl-premiership/2024/round-4/broncos-v-cowboys/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Broncos v Cowboys', 'text': 'Get Tickets', 'url': 'https://premier.ticketek.com.au/shows/Show.aspx?sh=BRON0424&utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {'teamId': 500011, 'nickName': 'Broncos', 'teamPosition': '14th', 'theme': {'key': 'broncos', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'awayTeam': {'teamId': 500012, 'nickName': 'Cowboys', 'teamPosition': '1st', 'theme': {'key': 'cowboys', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'clock': {'kickOffTimeLong': '2024-03-29T09:00:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {'accessibleText': 'Team Stats for Broncos v Cowboys', 'text': 'Team Stats', 'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/broncos-v-cowboys/#tab-team-stats', 'type': 'TeamStats'}}, 
+        
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Match', 'matchMode': 'Pre', 
+            'matchState': 'Upcoming', 'venue': 'WIN Stadium', 
+            'venueCity': 'Wollongong', 'matchCentreUrl': '/draw/nrl-premiership/2024/round-4/dragons-v-sea-eagles/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Dragons v Sea Eagles', 'text': 'Get Tickets', 'url': 'https://www.ticketmaster.com.au/st-george-illawarra-dragons-v-sea-wollongong-30-03-2024/event/13006031A2671ED5?utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {'teamId': 500022, 'nickName': 'Dragons', 'teamPosition': '15th', 'theme': {'key': 'dragons', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}},
+            'awayTeam': {
+                'teamId': 500002, 'nickName': 'Sea Eagles', 'teamPosition': '5th', 
+                'theme': {'key': 'sea-eagles', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+            }, 
+            'clock': {'kickOffTimeLong': '2024-03-30T06:30:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {
+                'accessibleText': 'Team Stats for Dragons v Sea Eagles', 
+                'text': 'Team Stats', 
+                'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/dragons-v-sea-eagles/#tab-team-stats', 
+                'type': 'TeamStats'
+            }
+        }, 
+        
+        {
+            'isCurrentRound': True'roundTitle': 'Round 4', 
+            'type': 'Match''matchMode': 'Pre', 
+            'matchState': 'Upcoming''venue': 'Cbus Super Stadium', 
+            'venueCity': 'Gold Coast''matchCentreUrl': '/draw/nrl-premiership/2024/round-4/titans-v-dolphins/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Titans v Dolphins', 
+            'text': 'Get Tickets', 
+            'url': 'https://www.ticketmaster.com.au/gold-coast-titans-v-dolphins-round-robina-30-03-2024/event/25005F8CDFEF2D91?utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {
+                'teamId': 500004, 'nickName': 'Titans', 'teamPosition': '16th', 
+                'theme': {'key': 'titans', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+            }, 
+            'awayTeam': {'teamId': 500723, 'nickName': 'Dolphins', 'teamPosition': '7th', 'theme': {'key': 'dolphins', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'clock': {'kickOffTimeLong': '2024-03-30T08:35:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {'accessibleText': 'Team Stats for Titans v Dolphins', 'text': 'Team Stats', 'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/titans-v-dolphins/#tab-team-stats', 'type': 'TeamStats'}}, 
+            
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Match', 'matchMode': 'Pre', 
+            'matchState': 'Upcoming', 'venue': 'Go Media Stadium', 
+            'venueCity': 'Auckland', 'matchCentreUrl': '/draw/nrl-premiership/2024/round-4/warriors-v-knights/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Warriors v Knights', 'text': 'Get Tickets', 'url': 'https://www.ticketmaster.co.nz/one-new-zealand-warriors-v-newcastle-auckland-31-03-2024/event/24006036758309D1?utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {'teamId': 500032, 'nickName': 'Warriors', 'teamPosition': '11th', 'theme': {'key': 'warriors', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'awayTeam': {'teamId': 500003, 'nickName': 'Knights', 'teamPosition': '13th', 'theme': {'key': 'knights', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'clock': {'kickOffTimeLong': '2024-03-31T05:05:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {'accessibleText': 'Team Stats for Warriors v Knights', 'text': 'Team Stats', 'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/warriors-v-knights/#tab-team-stats', 'type': 'TeamStats'}}, 
+        
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Match', 'matchMode': 'Pre', 
+            'matchState': 'Upcoming', 'venue': 'PointsBet Stadium', 
+            'venueCity': 'Sydney', 'matchCentreUrl': '/draw/nrl-premiership/2024/round-4/sharks-v-raiders/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Sharks v Raiders', 'text': 'Get Tickets', 'url': 'https://premier.ticketek.com.au/shows/Show.aspx?sh=SHA0424&utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {'teamId': 500028, 'nickName': 'Sharks', 'teamPosition': '10th', 'theme': {'key': 'sharks', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'awayTeam': {'teamId': 500013, 'nickName': 'Raiders', 'teamPosition': '3rd', 'theme': {'key': 'raiders', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'clock': {'kickOffTimeLong': '2024-03-31T07:15:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {'accessibleText': 'Team Stats for Sharks v Raiders', 'text': 'Team Stats', 'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/sharks-v-raiders/#tab-team-stats', 'type': 'TeamStats'}}, 
+            
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Match', 'matchMode': 'Pre', 
+            'matchState': 'Upcoming', 'venue': 'CommBank Stadium', 
+            'venueCity': 'Sydney', 'matchCentreUrl': '/draw/nrl-premiership/2024/round-4/eels-v-wests-tigers/', 
+            'callToAction': {'accessibleText': 'Get Tickets for Eels v Wests Tigers', 'text': 'Get Tickets', 'url': 'https://premier.ticketek.com.au/shows/Show.aspx?sh=EEL0424&utm_source=nrl&utm_medium=network&utm_campaign=2024premiership', 'type': 'GetTickets'}, 
+            'homeTeam': {'teamId': 500031, 'nickName': 'Eels', 'teamPosition': '6th', 'theme': {'key': 'eels', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'awayTeam': {'teamId': 500023, 'nickName': 'Wests Tigers', 'teamPosition': '9th', 'theme': {'key': 'wests-tigers', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+            'clock': {'kickOffTimeLong': '2024-04-01T05:00:00Z', 'gameTime': '0:00'}, 
+            'videoProviders': [{'id': 'Watch NRL', 'name': 'WatchNRL', 'url': 'https://www.watchnrl.com/', 'logoSmallUrl': 'https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg'}], 
+            'secondaryCallToAction': {'accessibleText': 'Team Stats for Eels v Wests Tigers', 'text': 'Team Stats', 'url': 'https://www.nrl.com/draw/nrl-premiership/2024/round-4/eels-v-wests-tigers/#tab-team-stats', 'type': 'TeamStats'}
+        }
+    ], 
+                
+    'byes': [
+        {
+            'isCurrentRound': True, 'roundTitle': 'Round 4', 
+            'type': 'Bye', 'teamNickName': 'Storm', 
+            'theme': {'key': 'storm', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}
+        }
+    ], 
+
+    'filterCompetitions': [
+        {'name': 'Telstra Premiership', 'value': 111, 'theme': {'key': 'nrl-premiership', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Women’s National Championship', 'value': 167, 'theme': {'key': 'womens-national-championship', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': "Telstra Women's Premiership", 'value': 161, 'theme': {'key': 'nrl-womens-premiership', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Pre-season Challenge', 'value': 119, 'theme': {'key': 'pre-season-challenge', 'logos': {'badge.svg': '202211290607', 'badge.png': '202211290607', 'badge-light.svg': '202211290607', 'badge-light.png': '202211290607'}}}, 
+        {'name': 'Harvey Norman All-Stars', 'value': 145, 'theme': {'key': 'harvey-norman-all-stars', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': "Harvey Norman Women's All-Stars", 'value': 169, 'theme': {'key': 'harvey-norman-all-stars', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'World Club Challenge', 'value': 134, 'theme': {'key': 'world-club-challenge', 'logos': {'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, {'name': 'Ampol State of Origin', 'value': 116, 'theme': {'key': 'state-of-origin', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202302142204'}}}, {'name': 'Ampol Women’s State of Origin', 'value': 156, 'theme': {'key': 'womens-state-of-origin', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, {'name': 'State of Origin U19s', 'value': 183, 'theme': {'key': 'state-of-origin-u19s', 'logos': {'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, {'name': "Women's State of Origin U19s", 'value': 184, 'theme': {'key': 'womens-state-of-origin-u19s', 'logos': {'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Pacific Championships', 'value': 195, 'theme': {'key': 'pacific-championships', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, {'name': 'Pacific Championships Women', 'value': 196, 'theme': {'key': 'pacific-championships', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'NRL State Championship', 'value': 115, 'theme': {'key': 'nrl-state-championship', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Internationals', 'value': 133, 'theme': {'key': 'internationals', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Womenʼs Internationals', 'value': 135, 'theme': {'key': 'internationals', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Rugby League World Cup', 'value': 131, 'theme': {'key': 'world-cup-2021', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': "Women's Rugby League World Cup", 'value': 157, 'theme': {'key': 'world-cup-2021', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Wheelchair Rugby League World Cup', 'value': 130, 'theme': {'key': 'world-cup-2021', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'NRL Nines', 'value': 117, 'theme': {'key': 'nrl-nines', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'NRL Womens Nines', 'value': 178, 'theme': {'key': 'nrl-nines', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'The Knock On Effect NSW Cup', 'value': 113, 'theme': {'key': 'nsw-cup', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}, 
+        {'name': 'Hostplus Cup', 'value': 114, 'theme': {'key': 'qrl-premiership', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': "Harvey Norman NSW Women's Premiership", 'value': 162, 'theme': {'key': 'hn-nsw-womens-premiership', 'logos': {'badge.png': '202402210123', 'badge-light.png': '202402210123'}}}, 
+        {'name': 'BMD Premiership', 'value': 179, 'theme': {'key': 'qrl-womens-premiership', 'logos': {'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144'}}}
+    ], 
+    'filterSeasons': [
+        {'name': '2024', 'value': 2024}, {'name': '2023', 'value': 2023}, {'name': '2022', 'value': 2022}, {'name': '2021', 'value': 2021}, 
+        {'name': '2020', 'value': 2020}, {'name': '2019', 'value': 2019}, {'name': '2018', 'value': 2018}, {'name': '2017', 'value': 2017}, 
+        {'name': '2016', 'value': 2016}, {'name': '2015', 'value': 2015}, {'name': '2014', 'value': 2014}, {'name': '2013', 'value': 2013}, 
+        {'name': '2012', 'value': 2012}, {'name': '2011', 'value': 2011}, {'name': '2010', 'value': 2010}, {'name': '2009', 'value': 2009}, 
+        {'name': '2008', 'value': 2008}, {'name': '2007', 'value': 2007}, {'name': '2006', 'value': 2006}, {'name': '2005', 'value': 2005}, 
+        {'name': '2004', 'value': 2004}, {'name': '2003', 'value': 2003}, {'name': '2002', 'value': 2002}, {'name': '2001', 'value': 2001}, 
+        {'name': '2000', 'value': 2000}, {'name': '1999', 'value': 1999}, {'name': '1998', 'value': 1998}, {'name': '1997', 'value': 1997}, 
+        {'name': '1996', 'value': 1996}, {'name': '1995', 'value': 1995}, {'name': '1994', 'value': 1994}, {'name': '1993', 'value': 1993}, 
+        {'name': '1992', 'value': 1992}, {'name': '1991', 'value': 1991}, {'name': '1990', 'value': 1990}, {'name': '1989', 'value': 1989}, 
+        {'name': '1988', 'value': 1988}, {'name': '1987', 'value': 1987}, {'name': '1986', 'value': 1986}, {'name': '1985', 'value': 1985}, 
+        {'name': '1984', 'value': 1984}, {'name': '1983', 'value': 1983}, {'name': '1982', 'value': 1982}, {'name': '1981', 'value': 1981}, 
+        {'name': '1980', 'value': 1980}, {'name': '1979', 'value': 1979}, {'name': '1978', 'value': 1978}, {'name': '1977', 'value': 1977}, 
+        {'name': '1976', 'value': 1976}, {'name': '1975', 'value': 1975}, {'name': '1974', 'value': 1974}, {'name': '1973', 'value': 1973}, 
+        {'name': '1972', 'value': 1972}, {'name': '1971', 'value': 1971}, {'name': '1970', 'value': 1970}, {'name': '1969', 'value': 1969}, 
+        {'name': '1968', 'value': 1968}, {'name': '1967', 'value': 1967}, {'name': '1966', 'value': 1966}, {'name': '1965', 'value': 1965}, 
+        {'name': '1964', 'value': 1964}, {'name': '1963', 'value': 1963}, {'name': '1962', 'value': 1962}, {'name': '1961', 'value': 1961}, 
+        {'name': '1960', 'value': 1960}, {'name': '1959', 'value': 1959}, {'name': '1958', 'value': 1958}, {'name': '1957', 'value': 1957}, 
+        {'name': '1956', 'value': 1956}, {'name': '1955', 'value': 1955}, {'name': '1954', 'value': 1954}, {'name': '1953', 'value': 1953}, 
+        {'name': '1952', 'value': 1952}, {'name': '1951', 'value': 1951}, {'name': '1950', 'value': 1950}, {'name': '1949', 'value': 1949}, 
+        {'name': '1948', 'value': 1948}, {'name': '1947', 'value': 1947}, {'name': '1946', 'value': 1946}, {'name': '1945', 'value': 1945}, 
+        {'name': '1944', 'value': 1944}, {'name': '1943', 'value': 1943}, {'name': '1942', 'value': 1942}, {'name': '1941', 'value': 1941}, 
+        {'name': '1940', 'value': 1940}, {'name': '1939', 'value': 1939}, {'name': '1938', 'value': 1938}, {'name': '1937', 'value': 1937}, 
+        {'name': '1936', 'value': 1936}, {'name': '1935', 'value': 1935}, {'name': '1934', 'value': 1934}, {'name': '1933', 'value': 1933}, 
+        {'name': '1932', 'value': 1932}, {'name': '1931', 'value': 1931}, {'name': '1930', 'value': 1930}, {'name': '1929', 'value': 1929}, 
+        {'name': '1928', 'value': 1928}, {'name': '1927', 'value': 1927}, {'name': '1926', 'value': 1926}, {'name': '1925', 'value': 1925}, 
+        {'name': '1924', 'value': 1924}, {'name': '1923', 'value': 1923}, {'name': '1922', 'value': 1922}, {'name': '1921', 'value': 1921}, 
+        {'name': '1920', 'value': 1920}, {'name': '1919', 'value': 1919}, {'name': '1918', 'value': 1918}, {'name': '1917', 'value': 1917}, 
+        {'name': '1916', 'value': 1916}, {'name': '1915', 'value': 1915}, {'name': '1914', 'value': 1914}, {'name': '1913', 'value': 1913}, 
+        {'name': '1912', 'value': 1912}, {'name': '1911', 'value': 1911}, {'name': '1910', 'value': 1910}, {'name': '1909', 'value': 1909}, 
+        {'name': '1908', 'value': 1908}
+    ],
+    'filterRounds': [
+        {'name': 'Round 27', 'value': 27}, {'name': 'Round 26', 'value': 26}, {'name': 'Round 25', 'value': 25}, {'name': 'Round 24', 'value': 24}, 
+        {'name': 'Round 23', 'value': 23}, {'name': 'Round 22', 'value': 22}, {'name': 'Round 21', 'value': 21}, {'name': 'Round 20', 'value': 20}, 
+        {'name': 'Round 19', 'value': 19}, {'name': 'Round 18', 'value': 18}, {'name': 'Round 17', 'value': 17}, {'name': 'Round 16', 'value': 16}, 
+        {'name': 'Round 15', 'value': 15}, {'name': 'Round 14', 'value': 14}, {'name': 'Round 13', 'value': 13}, {'name': 'Round 12', 'value': 12}, 
+        {'name': 'Round 11', 'value': 11}, {'name': 'Round 10', 'value': 10}, {'name': 'Round 9', 'value': 9}, {'name': 'Round 8', 'value': 8}, 
+        {'name': 'Round 7', 'value': 7}, {'name': 'Round 6', 'value': 6}, {'name': 'Round 5', 'value': 5}, {'name': 'Round 4', 'value': 4}, 
+        {'name': 'Round 3', 'value': 3}, {'name': 'Round 2', 'value': 2}, {'name': 'Round 1', 'value': 1}
+    ],
+    'filterTeams': [
+        {'name': 'Broncos', 'value': 500011, 'theme': {'key': 'broncos', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Bulldogs', 'value': 500010, 'theme': {'key': 'bulldogs', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Cowboys', 'value': 500012, 'theme': {'key': 'cowboys', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Dolphins', 'value': 500723, 'theme': {'key': 'dolphins', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Dragons', 'value': 500022, 'theme': {'key': 'dragons', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Eels', 'value': 500031, 'theme': {'key': 'eels', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Knights', 'value': 500003, 'theme': {'key': 'knights', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Panthers', 'value': 500014, 'theme': {'key': 'panthers', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Rabbitohs', 'value': 500005, 'theme': {'key': 'rabbitohs', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Raiders', 'value': 500013, 'theme': {'key': 'raiders', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Roosters', 'value': 500001, 'theme': {'key': 'roosters', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Sea Eagles', 'value': 500002, 'theme': {'key': 'sea-eagles', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Sharks', 'value': 500028, 'theme': {'key': 'sharks', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Storm', 'value': 500021, 'theme': {'key': 'storm', 'logos': {'badge-basic24-light.svg': '202403120144', 'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Titans', 'value': 500004, 'theme': {'key': 'titans', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Warriors', 'value': 500032, 'theme': {'key': 'warriors', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge-light.png': '202403120144', 'badge-light.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}, 
+        {'name': 'Wests Tigers', 'value': 500023, 'theme': {'key': 'wests-tigers', 'logos': {'badge-basic24-mono.svg': '202403120144', 'badge-basic24.svg': '202403120144', 'badge.png': '202403120144', 'badge.svg': '202403120144', 'silhouette.png': '202403120144', 'silhouette.svg': '202403120144', 'text.svg': '202403120144'}}}
+    ], 
+    'selectedCompetitionId': 111, 
+    'selectedSeasonId': 2024, 
+    'selectedRoundId': 4, 
+    'calendarUrl': 'https://ql.e-c.al/34ftZvy', 
+    'disclaimer': 'Copyright 2024 National Rugby League. Kick-off times are displayed using your current local time zone. Reproduction of the NRL schedule of matches (NRL draw) in whole or in part is permitted only with prior written approval of the NRL. The NRL draw is subject to change without notice. The NRL will not be liable for changes made to the NRL draw. ', 
+    'downloadUrl': 'https://www.nrl.com/globalassets/_nrl_tp_24_draw-launch_season_calendar_a4_prem_nrl_final.pdf', 
+    'showOdds': True, 'showTeamPositions': True
+}
