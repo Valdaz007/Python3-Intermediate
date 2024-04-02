@@ -2,12 +2,19 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
+# Arguments
+import argparse
+argsCon = argparse.ArgumentParser()
+argsCon.add_argument('round', metavar='round', type=int, help='Current round')
+args = argsCon.parse_args()
+round = args.round
+
 #? STYLE
 from rich.table import Table
 from rich.console import Console
 
 #? TABLE
-table = Table(title='Round 4')
+table = Table(title=f'Round {round}')
 table.add_column('Home Team')
 table.add_column('Placing')
 table.add_column('vs')
@@ -16,7 +23,6 @@ table.add_column('Placing')
 
 
 season = 2024
-round = 4
 url = f"https://www.nrl.com/draw/?competition=111&round={round}&season={season}"
 
 
