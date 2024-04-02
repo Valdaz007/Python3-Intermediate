@@ -28,7 +28,7 @@ def get_Round_Draw(season:int, round:int) -> list:
 
 # GET CURRENT ROUND TEAM STATS
 def get_Team_Stats(teams:str, round:int) -> dict:
-    pg = requests.get(f"https://www.nrl.com/draw/nrl-premiership/2024/round-{round}/{teams}/#tab-team-stats'").text
+    pg = requests.get(f"https://www.nrl.com/draw/nrl-premiership/2024/round-{round}/{teams.replace(' ', '-')}/#tab-match-center-2'").text
     pg_stats = BeautifulSoup(pg, "html.parser").find('div', id="vue-match-centre")
     return json.loads(pg_stats.attrs['q-data'])
 
@@ -62,7 +62,6 @@ def get_Team_Form(stats_Dict:dict) -> None:
 if __name__ == "__main__":
     teams_Match = get_Round_Draw(2024, round)
     dict_Stats = get_Team_Stats(teams_Match[team], round)
-    # print(dict_Stats['match']['homeTeam']['recentForm'])
     get_Team_Form(dict_Stats)
     input('Press any button to exit')
     subprocess.run('cls', shell=True)
