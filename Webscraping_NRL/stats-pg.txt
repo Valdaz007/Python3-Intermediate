@@ -1,239 +1,84 @@
+### dict['match]['stats'] ###
 {
-    "callToAction":{
-        "accessibleText":"Get Tickets for Roosters v Panthers",
-        "text":"Get Tickets",
-        "url":"https://premier.ticketek.com.au/shows/Show.aspx?sh=ROOPAN24&utm_source=nrl&utm_medium=network&utm_campaign=2024premiership",
-        "type":"GetTickets"
-    },
-    
-    "liveSeconds":63386.650305999996,"liveUrl":"/live-events?topic=/match/20241110410/detail",
-    "match":{
-        "matchId":"20241110410",
-        "matchMode":"Pre",
-        "matchState":"Upcoming",
-        "updated":"2024-03-27T08:58:21Z","gameSeconds":0,"roundNumber":4,"roundTitle":"Round 4","startTime":"2024-03-28T09:00:00Z",
-        "url":"https://www.nrl.com/draw/nrl-premiership/2024/round-4/roosters-v-panthers/",
-        "imageUrl":"https://www.nrl.com/siteassets/2024/-nrl-season-/240328---round-4/240328---roosters-v-panthers/nrl24_rd04_roostersvpanthers.jpg",
-        "homeTeam":{
-            "teamId":500001,"nickName":"Roosters","name":"Sydney Roosters","odds":"1.60","captainPlayerId":500663,"teamPosition":"2nd",
-            "theme":{
-                "key":"roosters",
-                "logos":{
-                    "badge-basic24-mono.svg":"202403120144","badge-basic24.svg":"202403120144","badge.png":"202403120144","badge.svg":"202403120144","silhouette.png":"202403120144","silhouette.svg":"202403120144","text.svg":"202403120144"
-                }
-            },
-            "players":[
-                {"firstName":"James","lastName":"Tedesco","position":"Fullback","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/TEDESCO%2C%20James%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/TEDESCO%2C%20James%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/james-tedesco/","playerId":500663,"number":1,"isCaptain":true,"isOnField":true},
-                {"firstName":"Daniel","lastName":"Tupou","position":"Winger","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/TUPOU%2C%20Daniel%20NRL%202024%20GP0006-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/TUPOU%2C%20Daniel%20NRL%202024%20GP0006-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/daniel-tupou/","playerId":500002,"number":2,"isOnField":true},
-                {"firstName":"Joseph-Aukuso","lastName":"Suaalii","position":"Centre","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/SUAALII%2C%20Joseph%20NRL%202024%20GP0002-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/SUAALII%2C%20Joseph%20NRL%202024%20GP0002-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/joseph-suaalii/","playerId":509438,"number":3,"isOnField":true},
-                {"firstName":"Joseph","lastName":"Manu","position":"Centre","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/MANU%2C%20Joseph%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/MANU%2C%20Joseph%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/joseph-manu/","playerId":502571,"number":4,"isOnField":true},
-                {"firstName":"Dominic","lastName":"Young","position":"Winger","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/YOUNG%2C%20Dom%20NRL%202024%20GP0004-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/YOUNG%2C%20Dom%20NRL%202024%20GP0004-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/dominic-young/","playerId":100008071,"number":5,"isOnField":true},
-                {"firstName":"Luke","lastName":"Keary","position":"Five-Eighth","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/KEARY%2C%20Luke%20NRL%202024%20GP0010-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/KEARY%2C%20Luke%20NRL%202024%20GP0010-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/luke-keary/","playerId":500093,"number":6,"isOnField":true},
-                {"firstName":"Sam","lastName":"Walker","position":"Halfback","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/WALKER%2C%20Sam%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/WALKER%2C%20Sam%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/sam-walker/","playerId":100004843,"number":7,"isOnField":true},
-                {"firstName":"Jared","lastName":"Waerea-Hargreaves","position":"Prop","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/WAEREA-HARGREAVES%2C%20Jared%20NRL%202024%20GP0005-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/WAEREA-HARGREAVES%2C%20Jared%20NRL%202024%20GP0005-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/jared-waerea-hargreaves/","playerId":500008,"number":8,"isOnField":true},
-                {"firstName":"Brandon","lastName":"Smith","position":"Hooker","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/SMITH%2C%20Brandon%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/SMITH%2C%20Brandon%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/brandon-smith/","playerId":503419,"number":9,"isOnField":true},
-                {"firstName":"Terrell","lastName":"May","position":"Prop","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/MAY%2C%20Terrell%20NRL%202024%20GP0003-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/MAY%2C%20Terrell%20NRL%202024%20GP0003-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/terrell-may/","playerId":508065,"number":10,"isOnField":true},
-                {"firstName":"Nat","lastName":"Butcher","position":"2nd Row","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/BUTCHER%2C%20Nat%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/BUTCHER%2C%20Nat%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/nat-butcher/","playerId":503639,"number":11,"isOnField":true},
-                {"firstName":"Sitili","lastName":"Tupouniua","position":"2nd Row","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/TUPOUNIUA%2C%20Sitili%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/TUPOUNIUA%2C%20Sitili%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/sitili-tupouniua/","playerId":505361,"number":12,"isOnField":true},
-                {"firstName":"Victor","lastName":"Radley","position":"Lock","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/RADLEY%2C%20Victor%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/RADLEY%2C%20Victor%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/victor-radley/","playerId":503920,"number":13,"isOnField":true},
-                {"firstName":"Connor","lastName":"Watson","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/WATSON%2C%20Connor%20NRL%202024%20GP0002-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/WATSON%2C%20Connor%20NRL%202024%20GP0002-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/connor-watson/","playerId":503327,"number":14,"isOnField":false},
-                {"firstName":"Naufahu","lastName":"Whyte","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/WHYTE%2C%20Naufahu%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/WHYTE%2C%20Naufahu%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/naufahu-whyte/","playerId":100006390,"number":15,"isOnField":false},
-                {"firstName":"Egan","lastName":"Butcher","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/BUTCHER%2C%20Egan%20NRL%202024%20GP0002-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/BUTCHER%2C%20Egan%20NRL%202024%20GP0002-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/egan-butcher/","playerId":504678,"number":16,"isOnField":false},
-                {"firstName":"Angus","lastName":"Crichton","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/CRICHTON%2C%20Angus%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/CRICHTON%2C%20Angus%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/angus-crichton/","playerId":503240,"number":17,"isOnField":false},
-                {"firstName":"Michael","lastName":"Jennings","position":"Replacement","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/JENNINGS%2C%20Michael%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/JENNINGS%2C%20Michael%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/michael-jennings/","playerId":500003,"number":18,"isOnField":false},
-                {"firstName":"Siua","lastName":"Wong","position":"Reserve","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500001/WONG%2C%20Siua%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500001/WONG%2C%20Siua%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/siua-wong/","playerId":100004373,"number":19,"isOnField":false}
-            ],
-            "recentForm":[
-                {"
-                    result":"Won",
-                    "summary":"vs Rabbitohs",
-                    "score":"48-6",
-                    "url":"https://www.nrl.com/draw/nrl-premiership/2024/round-3/roosters-v-rabbitohs/"
-                },
-                {"result":"Lost","summary":"vs Sea Eagles","score":"14-21","url":"https://www.nrl.com/draw/nrl-premiership/2024/round-2/sea-eagles-v-roosters/"},
-                {"result":"Won","summary":"vs Broncos","score":"20-10","url":"https://www.nrl.com/draw/nrl-premiership/2024/round-1/roosters-v-broncos/"},
-                {"result":"Lost","summary":"vs Storm","score":"13-18","url":"https://www.nrl.com/draw/nrl-premiership/2023/finals-week-2/game-1/"},
-                {"result":"Won","summary":"vs Sharks","score":"13-12","url":"https://www.nrl.com/draw/nrl-premiership/2023/finals-week-1/game-3/"}
-            ],
-            "nextOpponent":{
-                "teamId":500010,"nickName":"Bulldogs","name":"Canterbury-Bankstown Bulldogs",
-                "theme":{"key":"bulldogs","logos":{"badge-basic24-mono.svg":"202403120144","badge-basic24.svg":"202403120144","badge.png":"202403120144","badge.svg":"202403120144","silhouette.png":"202403120144","silhouette.svg":"202403120144","text.svg":"202403120144"}}
-            },
-            "url":"https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/"
-        },
-        
-        "awayTeam":{
-            "teamId":500014,"nickName":"Panthers","name":"Penrith Panthers","odds":"2.35","captainPlayerId":500534,"teamPosition":"4th",
-            "theme":{
-                "key":"panthers","logos":{"badge-basic24-mono.svg":"202403120144","badge-basic24.svg":"202403120144","badge-light.png":"202403120144","badge-light.svg":"202403120144","badge.png":"202403120144","badge.svg":"202403120144","silhouette.png":"202403120144","silhouette.svg":"202403120144","text.svg":"202403120144"}
-            },
-
-            "players":[
-                {"firstName":"Dylan","lastName":"Edwards","position":"Fullback","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/EDWARDS%2C%20Dylan%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/EDWARDS%2C%20Dylan%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/dylan-edwards/","playerId":503340,"number":1,"isOnField":true},
-                {"firstName":"Sunia","lastName":"Turuva","position":"Winger","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/TARUVA%2C%20Sunia%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/TARUVA%2C%20Sunia%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/sunia-turuva/","playerId":509455,"number":2,"isOnField":true},
-                {"firstName":"Izack","lastName":"Tago","position":"Centre","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/TAGO%2C%20Izack%20NRL%202024%20GP0008-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/TAGO%2C%20Izack%20NRL%202024%20GP0008-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/izack-tago/","playerId":509467,"number":3,"isOnField":true},
-                {"firstName":"Taylan","lastName":"May","position":"Centre","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/MAY%2C%20Taylan%20NRL%202024%20GP0002-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/MAY%2C%20Taylan%20NRL%202024%20GP0002-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/taylan-may/","playerId":507807,"number":4,"isOnField":true},
-                {"firstName":"Brian","lastName":"To'o","position":"Winger","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/TOO%2C%20Brian%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/TOO%2C%20Brian%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/brian-too/","playerId":505410,"number":5,"isOnField":true},
-                {"firstName":"Jarome","lastName":"Luai","position":"Five-Eighth","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/LUAI%2C%20Jarome%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/LUAI%2C%20Jarome%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/jarome-luai/","playerId":504121,"number":6,"isOnField":true},
-                {"firstName":"Brad","lastName":"Schneider","position":"Halfback","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/SCHNEIDER%2C%20Brad%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/SCHNEIDER%2C%20Brad%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/brad-schneider/","playerId":100002660,"number":7,"isOnField":true},
-                {"firstName":"Moses","lastName":"Leota","position":"Prop","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/LEOTA%2C%20Moses%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/LEOTA%2C%20Moses%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/moses-leota/","playerId":501461,"number":8,"isOnField":true},
-                {"firstName":"Mitch","lastName":"Kenny","position":"Hooker","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/KENNY%2C%20Mitch%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/KENNY%2C%20Mitch%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/mitchell-kenny/","playerId":505414,"number":9,"isOnField":true},
-                {"firstName":"Lindsay","lastName":"Smith","position":"Prop","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/SMITH%2C%20Lindsay%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/SMITH%2C%20Lindsay%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/lindsay-smith/","playerId":505555,"number":10,"isOnField":true},
-                {"firstName":"Luke","lastName":"Garner","position":"2nd Row","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/GARNER%2C%20Luke%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/GARNER%2C%20Luke%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/luke-garner/","playerId":501271,"number":11,"isOnField":true},
-                {"firstName":"Liam","lastName":"Martin","position":"2nd Row","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/MARTIN%2C%20Liam%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/MARTIN%2C%20Liam%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/liam-martin/","playerId":504125,"number":12,"isOnField":true},
-                {"firstName":"Isaah","lastName":"Yeo","position":"Lock","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/YEO%2C%20Isaah%20NRL%202024%20GP0003-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/YEO%2C%20Isaah%20NRL%202024%20GP0003-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/isaah-yeo/","playerId":500534,"number":13,"isCaptain":true,"isOnField":true},
-                {"firstName":"Daine","lastName":"Laurie","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/LAURIE%2C%20Daine%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/LAURIE%2C%20Daine%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/daine-laurie/","playerId":507645,"number":14,"isOnField":false},
-                {"firstName":"Matthew","lastName":"Eisenhuth","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/EISENHUTH%2C%20Matthew%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/EISENHUTH%2C%20Matthew%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/matthew-eisenhuth/","playerId":503322,"number":15,"isOnField":false},
-                {"firstName":"Liam","lastName":"Henry","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/HENRY%2C%20Liam%20NRL%202024%20GP0006-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/HENRY%2C%20Liam%20NRL%202024%20GP0006-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/liam-henry/","playerId":100007929,"number":16,"isOnField":false},
-                {"firstName":"Mavrik","lastName":"Geyer","position":"Interchange","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/GEYER%2C%20Mav%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/GEYER%2C%20Mav%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/mavrik-geyer/","playerId":507814,"number":17,"isOnField":false},
-                {"firstName":"Soni","lastName":"Luke","position":"Replacement","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/LUKE%2C%20Soni%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/LUKE%2C%20Soni%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/soni-luke/","playerId":502756,"number":18,"isOnField":false},
-                {"firstName":"Paul","lastName":"Alamoti","position":"Reserve","headImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Profile%20Headshots/111/2024/500014/ALAMOTI%2C%20Paul%20NRL%202024%20GP0001-COPY.png?center=0.3%2C0.5","bodyImage":"/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2024/500014/ALAMOTI%2C%20Paul%20NRL%202024%20GP0001-COPY.png?center=0.5%2C0.5","url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/paul-alamoti/","playerId":100004042,"number":21,"isOnField":false}
-            ],
-            
-            "recentForm":[
-                {"result":"Won","summary":"vs Broncos","score":"34-12","url":"https://www.nrl.com/draw/nrl-premiership/2024/round-3/panthers-v-broncos/"},
-                {"result":"Won","summary":"vs Eels","score":"26-18","url":"https://www.nrl.com/draw/nrl-premiership/2024/round-2/panthers-v-eels/"},
-                {"result":"Lost","summary":"vs Storm","score":"0-8","url":"https://www.nrl.com/draw/nrl-premiership/2024/round-1/storm-v-panthers/"},
-                {"result":"Won","summary":"vs Broncos","score":"26-24","url":"https://www.nrl.com/draw/nrl-premiership/2023/grand-final/panthers-v-broncos/"},
-                {"result":"Won","summary":"vs Storm","score":"38-4","url":"https://www.nrl.com/draw/nrl-premiership/2023/finals-week-3/game-1/"}
-            ],
-            "nextOpponent":{"teamId":500002,"nickName":"Sea Eagles","name":"Manly-Warringah Sea Eagles","theme":{"key":"sea-eagles","logos":{"badge-basic24-mono.svg":"202403120144","badge-basic24.svg":"202403120144","badge-light.png":"202403120144","badge-light.svg":"202403120144","badge.png":"202403120144","badge.svg":"202403120144","silhouette.png":"202403120144","silhouette.svg":"202403120144","text.svg":"202403120144"}}
-        },
-        "url":"https://www.penrithpanthers.com.au/teams/nrl-premiership/penrith-panthers/"
-    },
-    "venue":"Allianz Stadium","venueCity":"Sydney","broadcastChannels":["WatchNRL"],
-    "animateMatchClock":true,
-    "competition":{"competitionId":111,"name":"Telstra Premiership","theme":{"key":"nrl-premiership","logos":{"badge-light.png":"202403120144","badge-light.svg":"202403120144","badge.png":"202403120144","badge.svg":"202403120144"}}},
-    "hasExtraTime":true,"hasOnFieldTracking":true,
-    "officials":[
-        {"firstName":"Adam","lastName":"Gee","profileId":500019,"position":"Referee","headImage":"/contentassets/e6dd07beef3848e49742de47445fda18/geea-referees-2023_nrl_0071-head-shot.png?center=0.37%2C0.52","url":"https://www.nrl.com/operations/the-officials/match-officials/adam-gee/"},
-        {"firstName":"Chris","lastName":"Sutton","profileId":500068,"position":"Touch Judge","headImage":"/contentassets/87be5eb0c270427b97f45d424e00373b/suttonc-referees-2023_nrl_0136-head-shot.png?center=0.39%2C0.51","url":"https://www.nrl.com/operations/the-officials/match-officials/chris-sutton/"},
-        {"firstName":"Dave","lastName":"Munro","profileId":500034,"position":"Touch Judge","headImage":"/contentassets/2bd50149790f49329680533f4e7c0e7c/munrod-referees-2023_nrl_0107-head-shot.png?center=0.41%2C0.51","url":"https://www.nrl.com/operations/the-officials/match-officials/dave-munro/"},
-        {"firstName":"Chris","lastName":"Butler","profileId":500029,"position":"Senior Review Official","headImage":"/contentassets/5662689dd8b8457f90ab7be9ae39392e/butlerc-referees-2023_nrl_0077-head-shot.png?center=0.41%2C0.51","url":"https://www.nrl.com/operations/the-officials/match-officials/chris-butler/"}
-    ],
-    "positionGroups":[
-        {"title":"Backs","positions":[
-            {"name":"Fullback","homeProfileId":500663,"awayProfileId":503340},
-            {"name":"Winger","homeProfileId":500002,"awayProfileId":509455},
-            {"name":"Centre","homeProfileId":509438,"awayProfileId":509467},
-            {"name":"Centre","homeProfileId":502571,"awayProfileId":507807},
-            {"name":"Winger","homeProfileId":100008071,"awayProfileId":505410},
-            {"name":"Five-Eighth","homeProfileId":500093,"awayProfileId":504121},
-            {"name":"Halfback","homeProfileId":100004843,"awayProfileId":100002660}
-        ]},
-        {"title":"Forwards","positions":[
-            {"name":"Prop","homeProfileId":500008,"awayProfileId":501461},
-            {"name":"Hooker","homeProfileId":503419,"awayProfileId":505414},
-            {"name":"Prop","homeProfileId":508065,"awayProfileId":505555},
-            {"name":"2nd Row","homeProfileId":503639,"awayProfileId":501271},
-            {"name":"2nd Row","homeProfileId":505361,"awayProfileId":504125},
-            {"name":"Lock","homeProfileId":503920,"awayProfileId":500534}
-        ]},
-        {"title":"Interchange","positions":[
-            {"name":"Interchange","homeProfileId":503327,"awayProfileId":507645},
-            {"name":"Interchange","homeProfileId":100006390,"awayProfileId":503322},
-            {"name":"Interchange","homeProfileId":504678,"awayProfileId":100007929},
-            {"name":"Interchange","homeProfileId":503240,"awayProfileId":507814}
-        ]},
-        {"title":"Reserves","positions":[
-            {"name":"Replacement","homeProfileId":500003,"awayProfileId":502756},
-            {"name":"Reserve","homeProfileId":100004373,"awayProfileId":100004042}
-        ]}
-    ],
-    "segmentCount":2,"segmentDuration":2400,"showTeamPositions":true,"showPlayerPositions":true,
-    "stats":{
-        "groups":[
-            {
-                "title":"Current Season",
-                "stats":[
-                    {
-                        "title":"Wins this season",
-                        "type":"PercentageAndFraction",
-                        "homeValue":{"value":67.0,"numerator":2,"denominator":3,"isLeader":false},
-                        "awayValue":{"value":67.0,"numerator":2,"denominator":3,"isLeader":false}
-                    },
-                    {
-                        "title":"Points Scored",
-                        "type":"Number","homeValue":{"value":82.0,"isLeader":true},
-                        "awayValue":{"value":60.0,"isLeader":false}
-                    },
-                    {
-                        "title":"Points Conceded",
-                        "type":"Number",
-                        "homeValue":{"value":37.0,"isLeader":true},
-                        "awayValue":{"value":38.0,"isLeader":false}
-                    },
-                    {
-                        "title":"Completion Rate",
-                        "type":"Percentage",
-                        "homeValue":{"value":80.0,"isLeader":true},
-                        "awayValue":{"value":78.0,"isLeader":false}
-                    },
-                    {
-                        "title":"Tackle Efficiency",
-                        "type":"Percentage",
-                        "homeValue":{"value":87.3,"isLeader":true},
-                        "awayValue":{"value":87.0,"isLeader":false}
-                    },
-                    {
-                        "title":"Average Points Scored",
-                        "type":"Number",
-                        "homeValue":{"value":27.0,"isLeader":true},
-                        "awayValue":{"value":20.0,"isLeader":false}
-                    },
-                    {
-                        "title":"Average Points Conceded",
-                        "type":"Number",
-                        "homeValue":{"value":12.0,"isLeader":false},
-                        "awayValue":{"value":12.0,"isLeader":false}
-                    },
-                    {
-                        "title":"Average Play The Ball",
-                        "type":"Range",
-                        "units":"Seconds",
-                        "homeValue":{"value":3.36,"isLeader":false},
-                        "awayValue":{"value":3.35,"isLeader":true},
-                        "maxValue":5.00
-                    }
-                ]
-            },
-            {
-                "title":"Key Stats",
-                "stats":[
-                    {
-                        "title":"Wins at this venue",
-                        "type":"PercentageAndFraction",
-                        "homeValue":{"value":64.0,"numerator":183,"denominator":285,"isLeader":true},
-                        "awayValue":{"value":45.0,"numerator":13,"denominator":29,"isLeader":false}
-                    },
-                    {
-                        "title":"Wins overall",
-                        "type":"PercentageAndFraction",
-                        "homeValue":{"value":56.0,"numerator":390,"denominator":700,"isLeader":true},
-                        "awayValue":{"value":51.0,"numerator":349,"denominator":680,"isLeader":false}
-                    }
-                ]
-            }
-        ],
-        "history":{
-            "played":46,"draws":0,"homeWins":20,"awayWins":26,
-            "recentMatches":[
-                {
-                    "matchId":"20231111560","roundNumber":15,"roundName":"Round 15","startTime":"2023-06-10T09:35:00Z",
-                    "homeTeam":{"teamId":500001,"nickName":"Roosters","score":6},
-                    "awayTeam":{"teamId":500014,"nickName":"Panthers","score":30},
-                    "url":"https://www.nrl.com/draw/nrl-premiership/2023/round-15/roosters-v-panthers/"
-                },
-                {
-                    "matchId":"20231111130","roundNumber":11,"roundName":"Round 11","startTime":"2023-05-12T10:00:00Z",
-                    "homeTeam":{"teamId":500014,"nickName":"Panthers","score":48},
-                    "awayTeam":{"teamId":500001,"nickName":"Roosters","score":4},
-                    "url":"https://www.nrl.com/draw/nrl-premiership/2023/round-11/panthers-v-roosters/"
-                }
-            ]
+  'groups': [
+    {
+      'title': 'Current Season', 
+      'stats': [
+        {
+          'title': 'Wins this season', 'type': 'PercentageAndFraction', 
+          'homeValue': {'value': 50.0, 'numerator': 2, 'denominator': 4, 'isLeader': False}, 
+          'awayValue': {'value': 50.0, 'numerator': 2, 'denominator': 4, 'isLeader': False}
+        }, 
+        {
+          'title': 'Points Scored', 'type': 'Number', 
+          'homeValue': {'value': 92.0, 'isLeader': True}, 
+          'awayValue': {'value': 88.0, 'isLeader': False}
+        }, 
+        {
+          'title': 'Points Conceded', 'type': 'Number', 
+          'homeValue': {'value': 78.0, 'isLeader': False}, 
+          'awayValue': {'value': 75.0, 'isLeader': True}
+        }, 
+        {
+          'title': 'Completion Rate', 'type': 'Percentage', 
+          'homeValue': {'value': 84.0, 'isLeader': True}, 
+          'awayValue': {'value': 83.0, 'isLeader': False}
+        }, 
+        {
+          'title': 'Tackle Efficiency', 'type': 'Percentage', 
+          'homeValue': {'value': 89.3, 'isLeader': True}, 
+          'awayValue': {'value': 88.3, 'isLeader': False}
+        }, 
+        {
+          'title': 'Average Points Scored', 'type': 'Number', 
+          'homeValue': {'value': 23.0, 'isLeader': True}, 
+          'awayValue': {'value': 22.0, 'isLeader': False}
+        }, 
+        {
+          'title': 'Average Points Conceded', 'type': 'Number', 
+          'homeValue': {'value': 19.0, 'isLeader': False}, 
+          'awayValue': {'value': 18.0, 'isLeader': True}
+        }, 
+        {
+          'title': 'Average Play The Ball', 'type': 'Range', 'units': 'Seconds', 
+          'homeValue': {'value': 3.37, 'isLeader': True}, 
+          'awayValue': {'value': 3.53, 'isLeader': False}, 
+          'maxValue': 5.0
         }
-    },
-    "videoProviders":[{"id":"Watch NRL","name":"WatchNRL","url":"https://www.watchnrl.com/","logoSmallUrl":"https://www.nrl.com/contentassets/371c5b99234d42bebcca5f64926644b0/watch-nrl.svg"}]
-},
-"showOdds":false,
-"secondaryCallToAction":{"accessibleText":"Watch Live for Roosters v Panthers","text":"Watch Live","url":"https://www.watchnrl.com/","type":"WatchLive","provider":"WatchNRL"}}
+      ]
+    }, 
+    {
+      'title': 'Key Stats', 
+      'stats': [
+        {
+          'title': 'Wins at this venue', 'type': 'PercentageAndFraction', 
+          'homeValue': {'value': 59.0, 'numerator': 181, 'denominator': 309, 'isLeader': True}, 
+          'awayValue': {'value': 26.0, 'numerator': 5, 'denominator': 19, 'isLeader': False}
+        }, 
+        {
+          'title': 'Wins overall', 'type': 'PercentageAndFraction', 
+          'homeValue': {'value': 47.0, 'numerator': 318, 'denominator': 677, 'isLeader': False}, 
+          'awayValue': {'value': 49.0, 'numerator': 336, 'denominator': 685, 'isLeader': True}
+        }
+      ]
+    }
+  ],
+
+  'history': {
+    'played': 39, 'draws': 0, 'homeWins': 22, 'awayWins': 17, 
+    'recentMatches': [
+      {
+        'matchId': '20231111160', 'roundNumber': 11, 'roundName': 'Round 11', 'startTime': '2023-05-13T09:35:00Z', 
+        'homeTeam': {'teamId': 500013, 'nickName': 'Raiders', 'score': 26}, 
+        'awayTeam': {'teamId': 500031, 'nickName': 'Eels', 'score': 18}, 
+        'url': 'https://www.nrl.com/draw/nrl-premiership/2023/round-11/raiders-v-eels/'
+      }, 
+      {
+        'matchId': '20221112710', 'roundNumber': 27, 'roundName': 'Finals Week 2', 'startTime': '2022-09-16T09:50:00Z', 
+        'homeTeam': {'teamId': 500031, 'nickName': 'Eels', 'score': 40}, 
+        'awayTeam': {'teamId': 500013, 'nickName': 'Raiders', 'score': 4}, 
+        'url': 'https://www.nrl.com/draw/nrl-premiership/2022/finals-week-2/eels-v-raiders/'
+      }
+    ]
+  }
+}
