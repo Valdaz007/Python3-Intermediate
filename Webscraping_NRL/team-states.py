@@ -59,11 +59,25 @@ def get_Team_Form(stats_Dict:dict) -> None:
     vsTable.add_row(homeTable, awayTable)
     formConsole.print(vsTable)
 
+def get_Team_Stat(stats_Dict:dict) -> None:
+    stats = Table()
+    stats.add_column('Stats')
+    stats.add_column('Home')
+    stats.add_column('Away')
+    stats.add_column('Type')
+
+    for i in stats_Dict['match']['stats']['groups'][0]['stats']:
+        stats.add_row(f"{i['title']}", f"{i['homeValue']['value']}", f"{i['awayValue']['value']}", f"{i['type']}")
+
+    statsConsole = Console()
+    statsConsole.print(stats)
+
 if __name__ == "__main__":
     teams_Match = get_Round_Draw(2024, round)
     while True:
         dict_Stats = get_Team_Stats(teams_Match[team], round)
         get_Team_Form(dict_Stats)
+        get_Team_Stat(dict_Stats)
         inp = input('Press Enter to Continue or Q to Quit: ')
         subprocess.run('cls', shell=True)
         if inp=='Q' or inp=='q': break
