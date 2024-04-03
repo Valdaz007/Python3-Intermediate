@@ -54,14 +54,18 @@ def get_Team_Form(stats_Dict:dict) -> None:
     
     formConsole = Console()
     vsTable = Table()
-    vsTable.add_column(f"{stats_Dict['match']['homeTeam']['nickName']}")
-    vsTable.add_column(f"{stats_Dict['match']['awayTeam']['nickName']}")
+    vsTable.add_column(f"{stats_Dict['match']['homeTeam']['nickName']} {stats_Dict['match']['homeTeam']['odds']}")
+    vsTable.add_column(f"{stats_Dict['match']['awayTeam']['nickName']} {stats_Dict['match']['awayTeam']['odds']}")
     vsTable.add_row(homeTable, awayTable)
     formConsole.print(vsTable)
 
 if __name__ == "__main__":
     teams_Match = get_Round_Draw(2024, round)
-    dict_Stats = get_Team_Stats(teams_Match[team], round)
-    get_Team_Form(dict_Stats)
-    input('Press any button to exit')
-    subprocess.run('cls', shell=True)
+    while True:
+        dict_Stats = get_Team_Stats(teams_Match[team], round)
+        get_Team_Form(dict_Stats)
+        inp = input('Press Enter to Continue or Q to Quit: ')
+        subprocess.run('cls', shell=True)
+        if inp=='Q' or inp=='q': break
+        elif team == 7: team = 0
+        else: team+=1
