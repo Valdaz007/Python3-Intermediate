@@ -81,5 +81,6 @@ if __name__ == "__main__":
         inp = input('Press Enter to Continue or Q to Quit: ')
         subprocess.run('cls', shell=True)
         if inp=='Q' or inp=='q': break
+        elif inp=='': team+=1
+        elif inp in '01234567': team = int(inp)
         elif team == 7: team = 0
-        else: team+=1
